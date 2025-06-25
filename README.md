@@ -161,6 +161,14 @@ USE_TIME_SERIES_SCALING = True # Data normalization
 
 ## Results and Outputs
 
+### Model Performance Comparison
+
+| Data type | Segment-level model | Accuracy |
+|------------|-----------|----------|
+| Feature-based | MLP | 0.67 |
+| Time Series | Random Forest | 0.86 |
+| Time Series | 1D CNN | 0.78 |
+
 ### Model Performance
 Results saved in `results/ts_segment_model/`:
 - `cv_summary.csv`: Cross-validation performance summary
