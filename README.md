@@ -53,7 +53,7 @@ LPBS/
 ### 0. Setup
 Clone the repository and install dependencies.
 ```bash
-git clone <repository-url>
+git clone https://github.com/lysandre-c/LPBS.git
 cd LPBS
 pip install -r requirements.txt
 ```
